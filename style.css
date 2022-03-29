@@ -1,0 +1,145 @@
+body{
+	font-family:sans-serif, Arial;
+	margin:0;
+	padding:0;
+	background: #ccc;
+}
+#container{
+	position: relative;
+	width:80%;
+	margin:0 auto;
+	background: #fff;
+	padding:20px;
+	box-sizing: boder-box;
+	min-height:400px;
+}
+#full-width{
+	width:100%;
+}
+#full-width img{
+	width:100px;
+	height:80px
+}
+nav{
+	width:100%;
+}
+nav ul{
+	margin:20px 0 0;
+	padding:0;
+	border-radius:4px;
+	background: #262626;
+}
+nav ul li{
+	list-style:none;
+	display:inline-block;
+}
+nav ul li a{
+	display:block;
+	padding: 15px 20px;
+	color:#fff;
+}
+.active,
+nav ul li a:hover{
+	background: skyblue;;
+}
+/*index page */
+
+#col-7{
+	width:70%;
+	min-height:400px;
+	float:left;
+}
+#post{
+	margin-top:20px;
+	background:#ccc;
+	padding: 20px;
+	background: #f1f1f1;
+}
+#post img{
+	width:100%;
+}
+
+#col-3{
+	margin-top:20px;
+	width:28%;
+	min-height:400px;
+	background:#f1f1f1;
+	float:right;
+	box-sizing: border-box;
+	padding:20px;
+}
+#col-3 ul{
+	margin:0;
+	padding:0;
+}
+#col-3 ul li{
+	list-style:none;
+	padding:8px;
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
+#col-3 ul li:hover{
+	background: skyblue;
+	color: #fff;
+}
+
+h1{
+	margin:10px 0;
+}
+footer{
+	color:black;
+	padding-top:20px;
+	text-align:center;
+	font-weight:bold;
+}
+#social img{
+	width:30px;
+	height:30px;
+}
+@media (max-width:510px){
+	#col-7{
+	width:100%;
+}
+	
+	#col-3{
+		width:100%;
+	}
+}
+@media (max-width:510px){
+		nav ul li{
+			display: block;
+		}
+}
+/* Ingredients page*/
+
+#col-12{
+	position: relative;
+	margin:0 auto;
+	background: #fff;
+	min-height:700px;
+	padding-top:30px;
+}
+#boxing{
+	text-align:center;
+	font-weight:bold;
+	color:sky blue;
+	float:left;
+	padding: 0 0 20px 40px;
+	border:none;
+}				
+#boxing img{
+	width:300px;
+	height:300px;
+}
+/*Blogs page */
+#blog-pic1{
+	float:right;
+}
+#blog-pic1 img{
+	width:200px;
+	height:200px;
+}
+@media (max-width:500px){
+	#blog-pic1{
+		float:none;
+	}
+}
